@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+* {
+  font-family: Poppins;
+}
+.ppp-con {
+  background-color: rgba(245, 245, 245);
+}
+
+.tablett {
+  background-color: rgba(245, 245, 245) !important;
+}

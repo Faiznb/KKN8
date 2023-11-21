@@ -1,0 +1,55 @@
+/* HeroSection.css */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Asset/mts.png"); /* Gambar latar belakang dengan lapisan gelap */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.logo-hero {
+  width: 900px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 100vh; /* Sesuaikan tinggi untuk layar kecil */
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo-hero {
+    width: 500px;
+  }
+}
+
+@media (max-width: 426px) {
+  .hero-section {
+    height: 100vh; /* Sesuaikan tinggi untuk layar kecil */
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .logo-hero {
+    width: 300px;
+  }
+}
