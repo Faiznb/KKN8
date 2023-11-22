@@ -6,45 +6,85 @@ const Timeline = () => {
     "--accent-color": "#41516c",
   };
   return (
-    <div className="timeline">
-      <h1>UL timeline cards</h1>
-      <ul>
-        <li style={customStyle}>
-          <div className="date">2002</div>
-          <div className="title">Title 1</div>
-          <div className="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
-        </li>
-        <li style={customStyle}>
-          <div className="date">2007</div>
-          <div className="title">Title 2</div>
-          <div className="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
-        </li>
-        <li style={customStyle}>
-          <div className="date">2012</div>
-          <div className="title">Title 3</div>
-          <div className="descr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.
-          </div>
-        </li>
-        <li style={customStyle}>
-          <div className="date">2017</div>
-          <div className="title">Title 4</div>
-          <div className="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
-        </li>
-        <li style={customStyle}>
-          <div className="date">2022</div>
-          <div className="title">Title 5</div>
-          <div className="descr">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At tempore aperiam, aliquid, libero veritatis illo ullam a dignissimos nam itaque rem sapiente nesciunt quae facilis hic in quam, excepturi soluta! lor
-          </div>
-        </li>
-        <li style={customStyle}>
-          <div className="date">2022</div>
-          <div className="title">Title 5</div>
-          <div className="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
-        </li>
-      </ul>
-    </div>
+    <>
+      <hr className="border border-dark border-3 opacity-100" />
+      <hr className="border border-dark border-3 opacity-100" />
+      <div className="timeline">
+        <h1>Timeline Kegiatan</h1>
+        <ul>
+          <li style={customStyle}>
+            <div className="date">07 November 2023</div>
+            <div className="title">Selasa, 09.00 - Selesai</div>
+            <div className="descr">Diskusi penentuan mitra abdi masyarakat untuk kelompok 8</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">14 November 2023</div>
+            <div className="title">Selasa, 08.30 - Selesai</div>
+            <div className="descr">Survey mitra dan Rapat bersama pihak sekolah</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">17 November 2023</div>
+            <div className="title">Jum at, 08.00 - selesai</div>
+            <div className="descr">Pengajuan proposal ke mitra</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">20 November 2023</div>
+            <div className="title">Senin, 07.30 - selesai</div>
+            <div className="descr">Mengajar materi algoritma dasar dengan flowchart</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">21 November 2023</div>
+            <div className="title">Selasa, 07.00 - selesai</div>
+            <div className="descr">Mengajar materi google productivity tools</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">22 November 2023</div>
+            <div className="title">Rabu, 10.00 - selesai 5</div>
+            <div className="descr">Mengajar materi bullying</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">24 November 2023</div>
+            <div className="title">Jumat, 13.00 - selesai</div>
+            <div className="descr">Fun Game (Lomba keseimbangan kelompok menggunakan tali rafia dengan air dan lomba estafet air)</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">25 November 2023</div>
+            <div className="title">Sabtu, 07.30 - selesai</div>
+            <div className="descr">Mengajar materi dasar pemrograman</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">27 November 2023</div>
+            <div className="title">Senin, 07.00 - selesai</div>
+            <div className="descr">Praktek algoritma dasar dengan flowchart di lab</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">28 November 2023</div>
+            <div className="title">Selasa, 07.00 - selesai</div>
+            <div className="descr">Praktek materi tentang google form, google spreadsheet dan lain lain</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">29 November 2023</div>
+            <div className="title">Rabu, 07.30- selesai</div>
+            <div className="descr">Praktek materi tentang pemrograman dasar</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">1 Desember 2023</div>
+            <div className="title">Jumat, 07.00 - selesai</div>
+            <div className="descr">Pembuatan luaran , Persiapan untuk video Youtube , Pemilihan materi video Youtube , dan Penyusunan Laporan Kegiatan</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">2 Desember 2023</div>
+            <div className="title">Sabtu, 07.00 - selesai</div>
+            <div className="descr">Pembuatan luaran , Pembuatan berita media massa , Pengeditan video Youtube , dan Penyusunan Laporan Kegiatan (lanjutan)</div>
+          </li>
+          <li style={customStyle}>
+            <div className="date">3 Desember 2023</div>
+            <div className="title">Minggu, 07.00 - selesai</div>
+            <div className="descr">Pembuatan luaran , Penyelesaian Laporan Kegiatan , Upload video youtube , dan Publikasi berita media massa</div>
+          </li>
+        </ul>
+      </div>
+    </>
   );
 };
 
